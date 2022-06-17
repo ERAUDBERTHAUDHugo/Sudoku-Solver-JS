@@ -1,0 +1,33 @@
+table{
+	font-size: 2rem;
+	width: 30%;
+	height :20%;
+	border-collapse:collapse;
+	text-align :center;
+}
+table , tr ,td {
+	border: 1px solid black;
+}
+
+#line2>td{
+	border-bottom: 3px solid black;
+}
+#line5>td{
+	border-bottom: 3px solid black;
+}
+td.column2{
+	border-right: 3px solid black;
+}
+td.column5{
+	border-right: 3px solid black;
+}
+tr .wrong{
+	background : red;
+}
+
+tr .selected{
+	background : rgba(255,255,153,1);
+}
+tr .unallowed{
+	font-weight: 550;
+}

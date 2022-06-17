@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<title> SudokuSolver</title>
+</head>
+<body>
+	<table id="sudokuTab">
+	</table>
+	<button type="button" id="sudukuSolverButton" onclick="solveThisSudoku(this)">SOLVE THIS SUDOKU</button>
+	<button type="button" id="sudukuCompareButton" onclick="compareThisSudoku(this)">COMPARE MY ANSWER</button>
+	<table id="numbersUser">
+		<tr>
+			<td class="numberUserChoice" onclick="userChoice(this)">1</td>
+			<td class="numberUserChoice" onclick="userChoice(this)">2</td>
+			<td class="numberUserChoice" onclick="userChoice(this)">3</td>
+			<td class="numberUserChoice" onclick="userChoice(this)">4</td>
+			<td class="numberUserChoice" onclick="userChoice(this)">5</td>
+			<td class="numberUserChoice" onclick="userChoice(this)">6</td>
+			<td class="numberUserChoice" onclick="userChoice(this)">7</td>
+			<td class="numberUserChoice" onclick="userChoice(this)">8</td>
+			<td class="numberUserChoice" onclick="userChoice(this)">9</td>
+		</tr>
+	</table>
+</body>
+<script src="main.js"></script>
+</html>
